@@ -1,0 +1,178 @@
+/* Hero Page */
+header {
+    background-image: url("photo/header_imresizer.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 5cqw !important;
+}
+
+header p {
+    color: rgb(234, 238, 240);
+    font-size: 2cqw;
+}
+
+.content {
+    margin-top: 8vh !important;
+}
+
+
+/* Main Content */
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.image1 {
+    margin-right: 6rem !important;
+    padding: 1rem;
+}
+
+.image1 img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+
+/* Our Products */
+.products .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 2,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  /* fill: aqua !important; */
+}
+
+.products li {
+    list-style: none;
+    display: flex;
+    justify-items: center;
+    margin-left: -1.9rem ;
+    margin-bottom: 1rem;
+    font-size: 1.5cqw;
+}
+
+.products span {
+    font-size: 1.5cqw;
+    padding-top: 0.35rem;
+    margin-right: 0.8rem;
+    color: #EA3323;
+}
+
+.products h3 {
+    font-size: 2.5cqw;
+    text-decoration: underline;
+}
+
+/* About Us */
+.about {
+    padding: 1rem;
+    /* margin-top: -1.2rem !important; */
+}
+.about h3 {
+    font-size: 2.5cqw;
+}
+
+.about p {
+    font-size: 1.2cqw;
+}
+
+/* Items */
+.items {
+    display: flex;
+}
+
+.one , .two {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 1rem;
+}
+
+.items .card-body {
+    text-align: center;
+    height: 3rem;
+}
+
+
+/* Reviews */
+.reviews li {
+    list-style: none ;
+    font-size: 2cqw;
+    margin-bottom: 1rem;
+}
+
+.reviews {
+    background-image: url("photo/review.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    margin-bottom: 0 !important;
+}
+
+.reviews .chooseUs h3 {
+    font-size: 3cqw;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    color: rgb(36, 47, 44);
+}
+
+.reviews li .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 2,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+    /* fill: aqua !important; */
+}
+
+.reviews li span {
+    color: rgb(66, 49, 26);
+} 
+
+.reviews .card-img-top {
+    border-radius: 50% !important;
+}
+
+.reviews .card {
+    border: none !important;
+    background: transparent !important;
+}
+
+.reviews .card-body {
+    text-align: center;
+    font-weight: 500;
+    color: rgba(14, 13, 13, 0.948);
+    font-size: 1.3cqw !important;
+}
+
+.reviews .card-text .checked {
+    font-size: 1.5rem;
+}
+
+/* Contact Page */
+.contact {
+    width: 100%;
+    padding: 1rem;
+    margin: 0 !important;
+    background-image: url("photo/contact.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
